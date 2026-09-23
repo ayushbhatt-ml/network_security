@@ -1,0 +1,71 @@
+# ==========================================
+# Environments & Packages
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# Data & Storage (Never commit large datasets)
+# ==========================================
+data/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.feather
+*.jsonl
+*.zip
+*.tar.gz
+
+# ==========================================
+# ML Models, Weights & Checkpoints
+# ==========================================
+models/
+checkpoints/
+*.pkl
+*.pickle
+*.joblib
+*.pth
+*.pt
+*.onnx
+*.pb
+*.h5
+*.keras
+*.safetensors
+*.ckpt
+
+# ==========================================
+# Experiment Tracking & Logs
+# ==========================================
+wandb/
+mlruns/
+runs/
+lightning_logs/
+tensorboard/
+*.log
+
+# ==========================================
+# Jupyter Notebooks & IDE Settings
+# ==========================================
+.ipynb_checkpoints
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ==========================================
+# Secrets & Configurations
+# ==========================================
+.env
+.env.*
+secrets.json
+config.local.yaml
+*.pem
